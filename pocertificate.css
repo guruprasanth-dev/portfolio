@@ -1,0 +1,219 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+/* ===========================
+   BODY
+=========================== */
+
+body{
+    padding-top: 180px;
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.8;
+}
+
+/* ===========================
+   NAVIGATION
+=========================== */
+
+center:first-child{
+    top: 0px;
+    width: 1300px;
+    position: fixed;
+    background:#ffffff;
+    padding:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+a{
+    line-height: 10px;
+    text-decoration:none;
+    color:#1b1616;
+    font-size:17px;
+    font-weight:600;
+    margin:12px;
+    transition:.3s;
+     bottom:1px ;
+}
+
+a:hover{
+    color:#0d6efd;
+}
+
+hr{
+   
+    width:90%;
+    margin:18px auto;
+    border:1px solid #cac9c9;
+}
+
+/* ===========================
+   PAGE TITLE
+=========================== */
+
+center h1{
+    line-height: 1px;
+    color:#2160be;
+    font-size:42px;
+    margin-top:20px;
+}
+
+/* ===========================
+   INTRODUCTION
+=========================== */
+
+body>h2:first-of-type{
+    width:90%;
+    margin:35px auto;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    color:#555;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+/* ===========================
+   HEADINGS
+=========================== */
+
+h1{
+    color:#0d6efd;
+    margin:35px 60px 15px;
+    font-size:32px;
+}
+
+h2{
+    color:#084fc7;
+    margin:20px 60px 10px;
+}
+
+h3{
+    color:#444;
+    margin:10px 60px;
+}
+
+/* ===========================
+   PARAGRAPHS
+=========================== */
+
+p{
+    margin:15px 60px;
+    font-size:18px;
+    text-align:justify;
+    color:#555;
+}
+
+/* ===========================
+   CERTIFICATE IMAGES
+=========================== */
+
+img{
+    width:42px;
+    height:26px;
+    object-fit:fill;
+    margin:20px;
+    border-radius:15px;
+    border:5px solid white;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    transition:.4s;
+}
+
+img:hover{
+    transform:scale(1.05);
+    box-shadow:0 15px 35px rgba(13,110,253,.25);
+}
+
+/* ===========================
+   LISTS
+=========================== */
+
+ul{
+    margin-left:100px;
+    margin-bottom:30px;
+}
+
+li{
+    font-size:18px;
+    padding:6px;
+    color:#555;
+}
+
+/* ===========================
+   CERTIFICATE BOX EFFECT
+=========================== */
+
+
+
+h1:hover{
+    color:#ff9800;
+    transition:.3s;
+}
+
+/* ===========================
+   SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#ddd;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#0d6efd;
+    border-radius:10px;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:768px){
+
+center h1{
+    font-size:30px;
+}
+
+img{
+    float:none;
+    display:block;
+    width:90%;
+    height:auto;
+    margin:20px auto;
+}
+
+h1,
+h2,
+h3,
+p{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+ul{
+    margin-left:40px;
+}
+
+a{
+    display:block;
+    margin:10px;
+}
+
+}
